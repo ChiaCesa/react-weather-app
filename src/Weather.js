@@ -95,7 +95,7 @@ export default function Weather() {
         
         <img src="/img/catBanner.jpg" alt="Cat" className="catBanner" />
       </div>
-      <footer> <a href="https://github.com/ChiaCesa/react-weather-app" target="_blank">Open-source code</a> by Chiara Cesana</footer>
+      <footer> <a href="https://github.com/ChiaCesa/react-weather-app" >Open-source code</a> by Chiara Cesana</footer>
       </div>
     );
   }
