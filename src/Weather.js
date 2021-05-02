@@ -88,10 +88,11 @@ export default function Weather() {
                 <span className="temp">{weatherData.temperature} </span>
               </div>
             </div>
-          </div>
+</div>
 
 
         </div>
+        
         
         <img src="/img/catBanner.jpg" alt="Cat" className="catBanner" />
       </div>
