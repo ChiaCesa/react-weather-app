@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="container">
      
-        <h1></h1>
+        
           <Weather />
     <footer>
       This project was coded by Chiara Cesana and is
