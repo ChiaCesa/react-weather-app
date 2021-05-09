@@ -16,11 +16,12 @@ return (
     <div className="row">
       <div className="col-6">
          
-         
+         <div className="clear-fix">
+             <div className="float-left">
           <WeatherIcon code={props.data.icon}  />
-         
+         </div>
          <WeatherTemperature celsius={props.data.temperature} />
-       
+       </div>
      
       
       </div>

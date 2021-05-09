@@ -1,9 +1,11 @@
 .Weather{
   border: 1px solid #dadde1;
   padding: 16px;
- 
- 
-  border-radius: 5px;
+ border-bottom: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+
 }
 .Weather form{
   margin-bottom: 20px;
@@ -23,11 +25,10 @@ font-size: 25px;
 }
 .Weather .temperature{
   position:relative;
-  top:-15px;
+  margin-left: -10px;
   font-size: 65px;
   font-weight: 400;
-margin-left: -10px;
-  
+
 }
 .Weather canvas{
 margin-top: 20px;
