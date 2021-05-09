@@ -24,10 +24,11 @@ font-size: 25px;
 .Weather .temperature{
   font-size: 65px;
   font-weight: 400;
+  margin-left: -15px;
 }
 .Weather img{
   margin-top: -32px;
-  margin-right: 10px;
+  margin-left: -20px;
 }
 .Weather .unit{
   position:relative;
