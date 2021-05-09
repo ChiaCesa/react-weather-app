@@ -9,7 +9,7 @@ function App() {
       <div className="container">
      
         
-          <Weather />
+          <Weather defaultCity="New York" />
     <footer>
       This project was coded by Chiara Cesana and is
       <a href="https://github.com/ChiaCesa/react-weather-app" > open-sourced on GitHub</a>
