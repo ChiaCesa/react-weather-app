@@ -22,13 +22,17 @@ list-style: none;
 font-size: 25px;
 }
 .Weather .temperature{
+  position:relative;
+  top:-15px;
   font-size: 65px;
   font-weight: 400;
-  margin-left: -15px;
+margin-left: -10px;
+  
 }
-.Weather img{
-  margin-top: -32px;
-  margin-left: -20px;
+.Weather canvas{
+margin-top: 20px;
+margin-right: 20px;  
+  max-width: 64px;
 }
 .Weather .unit{
   position:relative;
