@@ -64,7 +64,7 @@ setCity(event.target.value);
       <WeatherInfo data={weatherData}/>
      
     </div>
-  )
+  );
   } else {
 
 search();
