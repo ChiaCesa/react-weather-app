@@ -22,20 +22,20 @@ setWeatherData({
   date: new Date(response.data.dt * 1000),
 });
   }
+ 
+  function handleSubmit(event){
+    event.preventDefault();
+   search();
+  }
+
+  function handleCityChange(event){
+setCity(event.target.value);
+}
 
 function search(){
   const apiKey="73f51c65cf902e402e962053834ff472";
   let apiUrl=`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   axios.get(apiUrl).then(handleResponse);
-}
-
-  function handleSubmit(event){
-    event.preventDefault();
-   search();
-  }
-  
-function handleCityChange(event){
-setCity(event.target.value);
 }
 
   if (weatherData.ready){
