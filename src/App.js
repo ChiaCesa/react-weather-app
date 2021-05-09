@@ -12,7 +12,7 @@ function App() {
           <Weather />
     <footer>
       This project was coded by Chiara Cesana and is
-      <a href="https://github.com/ChiaCesa/react-weather-app" target="_blank"> open-sourced on GitHub</a>
+      <a href="https://github.com/ChiaCesa/react-weather-app" > open-sourced on GitHub</a>
     </footer>
     </div>
     
