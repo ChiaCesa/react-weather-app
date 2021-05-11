@@ -1,0 +1,14 @@
+.weatherForecast{
+    text-align: center;
+}
+.weatherForecast-temp-min{
+    opacity: 0.6;
+}
+.weatherForecast-day{
+    margin-bottom: 5px;
+}
+.weatherForecast canvas{
+    margin: 0 auto;
+    display:block;
+    margin-bottom: 5px;
+}

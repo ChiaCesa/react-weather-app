@@ -18,7 +18,7 @@ return (
          
          <div className="clear-fix">
              <div className="float-left">
-          <WeatherIcon code={props.data.icon}  />
+          <WeatherIcon code={props.data.icon}  size={64}/>
          </div>
          <WeatherTemperature celsius={props.data.temperature} />
        </div>
@@ -26,9 +26,9 @@ return (
       
       </div>
       <div className="col-6">
-        <ul>
-          <li>Humidity: {props.data.humidity}%</li>
-          <li>Wind: {props.data.wind} km/h</li>
+        <ul className="condition">
+          <li className="humidity">Humidity: {props.data.humidity}%</li>
+          <li className="wind">Wind: {props.data.wind} km/h</li>
         </ul>
       </div>
     </div>

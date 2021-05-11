@@ -2,6 +2,7 @@ import React,  { useState } from "react";
 
 import WeatherInfo from "./WeatherInfo";
 import  "./Weather.css";
+import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 
 
@@ -62,7 +63,7 @@ function search(){
         </div>
       </form>
       <WeatherInfo data={weatherData}/>
-     
+     <WeatherForecast />
     </div>
   );
   } else {

@@ -41,3 +41,19 @@ margin-right: 20px;
   font-weight: 400;
   margin-left:5px;
 }
+.weatherInfo .text-capitalize{
+  font-size: 20px;
+  line-height: 50px;
+  margin-left: 3px;
+  margin-bottom: -15px;
+}
+ .weatherInfo .condition{
+  margin-top: 20px;
+  margin-left: 70px;
+}
+.weatherInfo .humidity {
+font-size: 20px;
+}
+.weatherInfo .wind {
+  font-size: 20px;
+  }
