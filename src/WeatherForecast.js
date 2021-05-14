@@ -20,12 +20,24 @@ function handleResponse(response){
            <div className="row">
                <div className="col">
                       <WeatherForecastDay data={forecast[0]} />
+                      </div>
+                      <div className="col">
+                      <WeatherForecastDay data={forecast[1]} />
+                      </div>
+                      <div className="col">
+                      <WeatherForecastDay data={forecast[2]} />
+                      </div>
+                      <div className="col">
+                      <WeatherForecastDay data={forecast[3]} />
+                      </div>
+                      <div className="col">
+                      <WeatherForecastDay data={forecast[4]} />
                </div>
             </div>
         </div>
     );
-    }else{
-   let apiKey= "73f51c65cf902e402e962053834ff472";
+    } else{
+    let apiKey= "73f51c65cf902e402e962053834ff472";
     let longitude = props.coordinates.lon;
     let latitude = props.coordinates.lat;
     let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
