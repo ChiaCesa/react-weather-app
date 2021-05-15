@@ -27,7 +27,7 @@ function handleResponse(response){
                       <WeatherForecastDay data={dailyForecast} />
                       </div>
                       );   
-                   }   
+                   }   else{return null}
                })}  
             </div>
         </div>
