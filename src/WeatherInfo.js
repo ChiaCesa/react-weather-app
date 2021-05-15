@@ -18,7 +18,7 @@ return (
          
          <div className="clear-fix">
              <div className="float-left">
-          <WeatherIcon code={props.data.icon}  size={64}/>
+          <WeatherIcon code={props.data.icon}  alt={props.data.description} size={64}/>
          </div>
          <WeatherTemperature celsius={props.data.temperature} />
        </div>

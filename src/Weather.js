@@ -1,9 +1,9 @@
 import React,  { useState } from "react";
 
 import WeatherInfo from "./WeatherInfo";
-import  "./Weather.css";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
+import  "./Weather.css";
 
 
 
@@ -16,12 +16,13 @@ setWeatherData({
   ready: true,
   coordinates: response.data.coord,
   temperature: response.data.main.temp,
-  humidity: response.data.main.humidity,
+  humidity: response.data.main.humidity, 
+  date: new Date(response.data.dt * 1000),
   description: response.data.weather[0].description,
   icon: response.data.weather[0].icon,
   wind: response.data.wind.speed,
   city: response.data.name,
-  date: new Date(response.data.dt * 1000),
+ 
 });
   }
  

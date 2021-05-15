@@ -14,25 +14,21 @@ function handleResponse(response){
   
 }
 
+
+
     if(loaded) {
       return (
         <div className="weatherForecast">
            <div className="row">
-               <div className="col">
-                      <WeatherForecastDay data={forecast[0]} />
+               {forecast.map(function(dailyForecast, index){
+                   if (index < 5){
+                        return (
+                       <div className="col" key={index}>
+                      <WeatherForecastDay data={dailyForecast} />
                       </div>
-                      <div className="col">
-                      <WeatherForecastDay data={forecast[1]} />
-                      </div>
-                      <div className="col">
-                      <WeatherForecastDay data={forecast[2]} />
-                      </div>
-                      <div className="col">
-                      <WeatherForecastDay data={forecast[3]} />
-                      </div>
-                      <div className="col">
-                      <WeatherForecastDay data={forecast[4]} />
-               </div>
+                      );   
+                   }   
+               })}  
             </div>
         </div>
     );
