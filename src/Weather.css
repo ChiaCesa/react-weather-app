@@ -4,7 +4,8 @@
  border-bottom: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);
+  background-image: radial-gradient(closest-side at 73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(closest-side at 91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+  background-blend-mode: screen;
 
 }
 .Weather form{
@@ -13,7 +14,7 @@
 .Weather h1{
   
   margin: 20px 0 0 0;
-  line-height: 29px;
+  line-height: 30px;
 }
 .Weather ul{
   margin: 0;
@@ -34,26 +35,30 @@ font-size: 25px;
 margin-top: 20px;
 margin-right: 20px;  
   max-width: 64px;
+  margin-left: 20px;
 }
 .Weather .unit{
   position:relative;
   top: -35px;
   font-weight: 400;
-  margin-left:5px;
+
 }
 .weatherInfo .text-capitalize{
   font-size: 20px;
-  line-height: 50px;
-  margin-left: 3px;
-  margin-bottom: -15px;
+  line-height: 35px;
+  margin-left: 2px;
+  
 }
  .weatherInfo .condition{
   margin-top: 20px;
-  margin-left: 70px;
+  margin-left: 80px;
 }
 .weatherInfo .humidity {
 font-size: 20px;
 }
 .weatherInfo .wind {
   font-size: 20px;
+  }
+  .date{
+    margin-top: 10px;
   }
